@@ -1,0 +1,29 @@
+Part 1: Manual testing
+
+Test plan:
+OVERVIEW
+Testing Tic Tac Toe game to make sure it is functional.
+
+LINK
+http://localhost:4000/
+
+TEST CRITERIA
+-Game will start when “Start!” button is clicked.
+-Player will be able to choose to play “X” or “O.”
+-Player will be able to click on each square when it is their turn to play.
+-Refreshing the page will restart the game.
+-Both symbols “X” and “O” have the same size.
+-Winner and looser announcement will show at the end of the game.
+
+Bugs:
+1. Wrong looser announcement => winner is announced “lost.” It should be:
+	Winner = “win”
+	Looser = “lost”
+
+2. Circle size is not consistent. Sometimes one circle come up smaller than the others.
+
+3. Circle stop playing after the 2nd turn.
+
+4. The player cannot choose to play “X” or “O.” The player will always play “X.”
+
+5. Sometimes my “X” is replaced by “O” on its own.
